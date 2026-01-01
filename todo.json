@@ -1,0 +1,17 @@
+[{
+	"id": 1,
+	"title": "Augment Jornada Models",
+	"description": "Add dual tolerances, closing time, and partial absence flag fields to Jornada-related models/schema, ensuring calendar selection relationships are represented."
+}, {
+	"id": 2,
+	"title": "Persist Calendar Selections",
+	"description": "Extend Jornada persistence logic to store and retrieve linked calendar application selections for each jornada instance."
+}, {
+	"id": 3,
+	"title": "Update Jornada CRUD Endpoints",
+	"description": "Modify create, update, list, and detail handlers under Backend/routes/Jornada to read/write the new Jornada fields and calendar selections."
+}, {
+	"id": 4,
+	"title": "Create Database Migration",
+	"description": "Add migration scripts to introduce the new Jornada columns and any join tables for calendar selections, covering schema upgrade/downgrade paths."
+}]
